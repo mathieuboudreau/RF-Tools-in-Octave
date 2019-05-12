@@ -65,8 +65,9 @@ RUN cd $HOME/work;\
                 flask; \
     python -m sos_notebook.install;\
     git clone https://github.com/mathieuboudreau/RF-Tools-in-Octave;   \
-    cd RF-Tools-in-Octave;\
-    chmod -R 777 $HOME/work/RF-Tools-in-Octave;
+    chmod -R 777 $HOME/work/RF-Tools-in-Octave; \
+    cd RF-Tools-in-Octave/rf_tools_octave;\
+    octave --eval "mkoctfile abr.cc;"
 
 WORKDIR $HOME/work/RF-Tools-in-Octave
 
