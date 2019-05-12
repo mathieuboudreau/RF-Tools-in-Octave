@@ -66,9 +66,7 @@ RUN cd $HOME/work;\
     python -m sos_notebook.install;\
     git clone https://github.com/mathieuboudreau/RF-Tools-in-Octave;   \
     cd RF-Tools-in-Octave;\
-    chmod -R 777 $HOME/work/RF-Tools-in-Octave; \
-    octave --eval "startup; \
-                   pkg list;"
+    chmod -R 777 $HOME/work/RF-Tools-in-Octave;
 
 WORKDIR $HOME/work/RF-Tools-in-Octave
 
