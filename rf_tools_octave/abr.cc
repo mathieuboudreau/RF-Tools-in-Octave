@@ -30,7 +30,7 @@ DEFUN_DLD (abr, args, nargout,
 {
    octave_value_list retval;
    octave_value tmp;
-   int nargin = args.length ();
+   int nargin = args.length();
    int carg;
 
    if ((nargin < 2) || (nargin > 4) ) {
@@ -48,7 +48,7 @@ DEFUN_DLD (abr, args, nargout,
    carg = 0;
 
    ComplexColumnVector rf (args(0).complex_vector_value());
-   int lrf = rf.length();
+   int lrf = rf.numel();
    carg++;
 
    ComplexColumnVector g (lrf);
@@ -57,7 +57,7 @@ DEFUN_DLD (abr, args, nargout,
        g(j) = 2*M_PI/lrf;
    } else {
      ComplexColumnVector gt (args(carg).complex_vector_value());
-     if (gt.length() != rf.length()) {
+     if (gt.numel() != rf.numel()) {
        error("RF and g are different lengths");
        return retval;
      }
@@ -66,13 +66,13 @@ DEFUN_DLD (abr, args, nargout,
    }
        
    ColumnVector x  (args(carg).vector_value());
-   int lx = x.length();
+   int lx = x.numel();
    int ly = 1;
    carg++;
 
    if (carg < nargin) {
      ColumnVector yt  (args(carg).vector_value());
-     ly = yt.length();
+     ly = yt.numel();
    }
    ColumnVector y (ly);
    if (ly == 1) {
