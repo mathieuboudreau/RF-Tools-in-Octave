@@ -20,41 +20,6 @@
 - title: Search
   search: true
 
-- title: Inversion Recovery
-  url: /01/ir_blog/IR_Introduction
+- title: RF Pulse Simulator
+  url: /01/RF_Pulse_Simulator
   not_numbered: true
-  expand_sections: true
-  sections:
-  - title: Signal Modelling
-    url: /01/ir_blog/IR_SignalModelling
-    not_numbered: true
-  - title: Data Fitting
-    url: /01/ir_blog/IR_DataFitting
-    not_numbered: true
-  - title: Benefits and Pitfalls
-    url: /01/ir_blog/IR_BenefitsAndPitfalls
-    not_numbered: true
-  - title: Other Saturation-Recovery T<sub>1</sub> Mapping techniques
-    url: /01/ir_blog/IR_OtherMethods
-    not_numbered: true
-  - title: References
-    url: /01/ir_blog/IR_References
-    not_numbered: true
-
-- title: Variable Flip Angle
-  url: /01/vfa_blog/VFA_Introduction
-  not_numbered: true
-  expand_sections: true
-  sections:
-  - title: Signal Modelling
-    url: /01/vfa_blog/VFA_SignalModelling
-    not_numbered: true
-  - title: Data Fitting
-    url: /01/vfa_blog/VFA_DataFitting
-    not_numbered: true
-  - title: Benefits and Pitfalls
-    url: /01/vfa_blog/VFA_BenefitsAndPitfalls
-    not_numbered: true
-  - title: References
-    url: /01/vfa_blog/VFA_References
-    not_numbered: true

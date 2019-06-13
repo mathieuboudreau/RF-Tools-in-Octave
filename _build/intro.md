@@ -6,18 +6,31 @@ prev_page:
   url: 
   title: ''
 next_page:
-  url: /01/ir_blog/IR_Introduction
-  title: 'Inversion Recovery'
+  url: /01/RF_Pulse_Simulator
+  title: 'RF Pulse Simulator'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
-# Quantitative T<sub>1</sub> Mapping
+<h1>RF Tools Demo </h1>
+    
+Demo for the rf_tools octave package
 
-This Jupyter Book is a series of interactive tutorials about quantitative T<sub>1</sub> mapping, powered by <a href="https://github.com/neuropoly/qMRLab" target="_blank">qMRLab</a>. Most figures are generated with <a href="https://plot.ly/python/" target="_blank">Plot.ly</a> – you can play with them by hovering your mouse over the data, zooming in (click and drag) and out (double click), moving the sliders, and changing the drop-down options. To view the code that was used to generate the figures in this blog post, hover your cursor in the top left corner of the frame that contains the tutorial and click the checkbox "All cells" in the popup that appears.
+ISMRM 2019, Montreal Canada
 
-Jupyter Lab notebooks of these tutorials are also available through MyBinder, and inline code modification inside the Jupyter Book is provided by [Thebelab](https://github.com/minrk/thebelab). For both options, you can modify the code, change the figures, and regenerate the html that was used to create the tutorial below. This Jupyter Book also uses a <a href="https://vatlab.github.io/sos-docs/" target="_blank">Script of Scripts (SoS)</a> kernel, allowing us to process the data using qMRLab in MATLAB/Octave and plot the figures with Plot.ly using Python, all within the same Jupyter Notebook.
+Run this with
 
-## Acknowledgements
+    jupyter notebook rf_tools_demo.ipynb
+    
+This requires that octave be installed, the signal toolbox, and the octave kernel for jupyter.
 
-This work was supported by the <a href="http://conp.ca" target="_blank">Canadian Open Neuroscience Platform (CONP)</a> initiative, the <a href="https://www.rbiq-qbin.qc.ca/" target="_blank">Quebec Bio-Imaging Network (QBIN)</a>, and the <a href="https://www.icm-mhi.org/en/foundation" target="_blank">Montreal Heart Institute Foundation</a>.
+<h2> Outline </h2>
 
+There are four parts to this tutorial
+- RF Pulse simulator -- abr.m
+- Shinnar-Le Roux pulse design routines -- b2rf.m, and friends
+- Minimum and maximum phase pulses -- dzmp.m
+- 2D spiral pulse design -- dz2d.m
+
+The first three sections cover the Shinnar-Le Roux (SLR) pulse design method described in
+
+"Parameter relations for the Shinnar-Le Roux selective excitation pulse design algorithm," J Pauly, P Le Roux, D Nishimura, A Macovski IEEE transactions on medical imaging 10 (1), 53-65
