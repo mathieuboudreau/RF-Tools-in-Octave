@@ -68,7 +68,7 @@ RUN cd $HOME/work;\
                 jupyterlab>=0.35.4 \
                 repo2data; \
     python -m sos_notebook.install;\
-    git clone --single-branch -b neurolibre https://github.com/mathieuboudreau/RF-Tools-in-Octave;   \
+    git clone --single-branch -b gh-pages https://github.com/mathieuboudreau/RF-Tools-in-Octave;   \
     chmod -R 777 $HOME/work/RF-Tools-in-Octave; \
     cd RF-Tools-in-Octave/rf_tools_octave;\
     octave --eval "mkoctfile abr.cc;"

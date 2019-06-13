@@ -65,7 +65,7 @@ binderhub_url                    : "https://binder.conp.cloud"  # The URL for yo
 binder_repo_base                 : "https://github.com/"  # The site on which the textbook repository is hosted
 binder_repo_org                  : "mathieuboudreau"  # The username or organization that owns this repository
 binder_repo_name                 : "RF-Tools-in-Octave"  # The name of the repository on the web
-binder_repo_branch               : "neurolibre"  # The branch on which your textbook is hosted.
+binder_repo_branch               : "gh-pages"  # The branch on which your textbook is hosted.
 binderhub_interact_text          : "Launch Binder"  # The text that interact buttons will contain.
 
 # Thebelab settings
