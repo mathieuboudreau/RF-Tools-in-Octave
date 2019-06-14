@@ -1,7 +1,7 @@
 ---
 interact_link: content/intro.ipynb
 kernel_name: sos
-title: 'Home'
+title: 'Introduction'
 prev_page:
   url: 
   title: ''

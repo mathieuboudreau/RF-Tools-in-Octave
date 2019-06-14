@@ -14,11 +14,9 @@
 # divider: true if this entry should just be rendered as a horizontal divider
 #   in the sidebar. All other values are ignored.
 
-- title: Home
+- title: Introduction
   url: /intro
   not_numbered: true
-- title: Search
-  search: true
 
 - title: RF Pulse Simulator
   url: /01/RF_Pulse_Simulator
@@ -30,4 +28,8 @@
 
 - title: Minimum and Maximum Phase
   url: /01/Minimum_Maximum_Phase_RF
+  not_numbered: true
+
+- title: 2D Spiral Excitation Pulses
+  url: /01/2D_Spiral
   not_numbered: true
