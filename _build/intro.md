@@ -13,15 +13,9 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 <h1>RF Tools Demo </h1>
     
-Demo for the rf_tools octave package
+This NeuroLibre tutorial is a fork of John Pauly's tutorial on his rf_tools Octave package, which was presented as part of the Open-Source Software Tools session at ISMRM 2019, in Montreal Canada.
 
-ISMRM 2019, Montreal Canada
-
-Run this with
-
-    jupyter notebook rf_tools_demo.ipynb
-    
-This requires that octave be installed, the signal toolbox, and the octave kernel for jupyter.
+The figures are interactive, and to modi
 
 <h2> Outline </h2>
 
