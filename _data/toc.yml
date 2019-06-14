@@ -24,6 +24,10 @@
   url: /01/RF_Pulse_Simulator
   not_numbered: true
 
-- title:  Shinnar Le Roux
+- title: Shinnar Le Roux
   url: /01/Shinnar_Le_Roux
+  not_numbered: true
+
+- title: Minimum and Maximum Phase
+  url: /01/Minimum_Maximum_Phase_RF
   not_numbered: true
